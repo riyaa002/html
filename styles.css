@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d2e7bc71;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+nav {
+    background-color: #548235;
+    padding: 10px 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+.table-container {
+    width: 95%;
+    margin: 10px ;
+    
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+.table1{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.table2{
+    margin-bottom: 10px;
+}
+
+.action-button {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #7fb16d;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(190, 184, 184);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+thead {
+    background-color: #548235;
+    color: white;
+}
+
+th, td {
+    padding: 4px;
+    text-align: left;
+    border: 1px solid #e2efda;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #c6e0b4;
+}
+
+input[type="radio"] {
+    margin: 0;
+}
